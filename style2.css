@@ -1,0 +1,33 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius:    
+10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 300px; /* フォームの幅を指定 */
+}
+
+label, input {
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #feeed1e5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: poin   
+ter;
+}
